@@ -1,0 +1,16 @@
+.idea
+.allure
+.classpath
+.factorypath
+.project
+.settings
+
+*.iml
+*.ipr
+*.iws
+
+logs
+build
+target
+
+chromedriver.exe

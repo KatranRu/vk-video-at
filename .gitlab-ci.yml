@@ -1,0 +1,9 @@
+include:
+  - project: "devops/ci-scripts"
+    ref: master
+    file: "qa/at-build.yml"
+
+image: artifactory.gitlab.bcs.ru/ef-docker/jdk11-at:jdk21
+variables:
+  ALLURE_PROJECT_ID: 530
+  MOCKS: "true"
