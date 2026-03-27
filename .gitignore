@@ -13,5 +13,8 @@ logs
 build
 target
 docker
+artifacts
+allure-results
+screenshots
 
 chromedriver.exe
