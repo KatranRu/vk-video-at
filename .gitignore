@@ -12,5 +12,6 @@
 logs
 build
 target
+docker
 
 chromedriver.exe
